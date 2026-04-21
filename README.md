@@ -7,7 +7,7 @@ Análisis de rentabilidad y desempeño comercial usando Excel, SQL Server y Powe
 - Power BI (visualización)
 
 📂 Dataset
--Sample Superstore Dataset (Kaggle)
+- Sample Superstore Dataset (Kaggle)
 
 🔍 Análisis realizado
 - Evaluación de ventas y ganancias
