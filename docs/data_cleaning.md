@@ -2,7 +2,7 @@
 
 - Variable Row ID --> Número  Se verificó que sea único --> Sin problemas
 
-- Variable Order ID -->  General
+- Variable Order ID -->  General <br>
   Se verificó consistencia de datos
 
 - Varible Order Date --> Fecha
