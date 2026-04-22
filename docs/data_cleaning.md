@@ -27,19 +27,12 @@
   Normal
 
 - Variable Country <br>
-  Validación con una tabla maestra --> Normal 
-
-- Variable City <br>
-  Validación con una tabla maestra --> Normal
-
-- Varible State <br>
-  Validación con una tabla maestra --> Normal
-
 - Varible Region <br>
-  Validación con una tabla maestra --> Normal
-
+- Variable State <br>
+- Varible City <br>
+  Se validó la jerarquía geográfica (Country → Region → State → City) comparando contra tabla de referencia para detectar asignaciones inconsistentes
 - Varible Producto ID <br>
-  Normal
+  Se validó que sea único con respecto a cada Order ID
 
 - Varibale Category <br>
   Normal
