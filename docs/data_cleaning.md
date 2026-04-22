@@ -1,7 +1,6 @@
 ## Limpieza de datos - Superstore en EXCEL
 
-- Variable Row ID --> Número
-  Se verificó que sea único --> Sin problemas
+- Variable Row ID --> Número  Se verificó que sea único --> Sin problemas
 
 - Variable Order ID -->  General
   Se verificó consistencia de datos
