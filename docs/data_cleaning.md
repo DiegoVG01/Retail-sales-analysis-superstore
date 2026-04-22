@@ -3,7 +3,7 @@
 - Variable Row ID --> Número
   Se verificó que sea único --> Sin problemas
 
---Variable Order ID -->  General
+- Variable Order ID -->  General
   Se verificó consistencia de datos
 
 - Varible Order Date --> Fecha
@@ -60,7 +60,7 @@
 - Varibale Discount
   asd
 
---Varibale Profit
+- Varibale Profit
   asd
   
 
