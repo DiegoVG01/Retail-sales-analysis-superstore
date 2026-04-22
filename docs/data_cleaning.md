@@ -5,61 +5,61 @@
 - Variable Order ID -->  General <br>
   Se verificó consistencia de datos
 
-- Varible Order Date --> Fecha
-  Problemas detectado --> Incosistencia del formato. Ejem 11-08-2016 Y 1/16/2016 y se detectó estar en el formato MMDDYYYY con ayuda y analizando   la variable Ship Fecha
+- Varible Order Date --> Fecha <br>
+  Problemas detectado --> Incosistencia del formato. Ejem 11-08-2016 Y 1/16/2016 y se detectó estar en el formato MMDDYYYY con ayuda y analizando   la variable Ship Fecha <br>
   Solución --> Se busco y reemplazó - por / y se estandarizó el formato del dato a DD/MM/YYYY con la herramienta Dato/Texto en columnas
 
-- Variable Ship Date --> Fecha
-  Problemas detectado --> Incosistencia del formato. Ejem 12-10-2014 Y 12/13/2016 y se detectó estar en el formato MMDDYYYY con ayuda y   analizando   la variable Order Date
+- Variable Ship Date --> Fecha <br>
+  Problemas detectado --> Incosistencia del formato. Ejem 12-10-2014 Y 12/13/2016 y se detectó estar en el formato MMDDYYYY con ayuda y   analizando   la variable Order Date <br>
   Solución --> Se busco y reemplazó - por / y se estandarizó el formato del dato a DD/MM/YYYY con la herramienta Dato/Texto en columnas
   Nota: Se detectó que la fecha de despacho puede ser igual a la fecha de orden
 
-- Creación de Varibale Shipping Time derivado de Order Date y Ship Date --> Número
+- Creación de Varibale Shipping Time derivado de Order Date y Ship Date --> Número <br>
   Se crea esta variable para saber el tiempo de despacho de cada orden
 
-- Variable Ship Mode --> General
+- Variable Ship Mode --> General <br>
   No se detectó anomalías en el texto
 
-- Varible Customer ID --> General
+- Varible Customer ID --> General <br>
   No se detectó anomalías 
 
-- Varible Segment
+- Varible Segment <br>
   Normal
 
-- Variable Country 
+- Variable Country <br>
+  Validación con una tabla maestra --> Normal 
+
+- Variable City <br>
   Validación con una tabla maestra --> Normal
 
-- Variable City
+- Varible State <br>
   Validación con una tabla maestra --> Normal
 
-- Varible State
+- Varible Region <br>
   Validación con una tabla maestra --> Normal
 
-- Varible Region
-  Validación con una tabla maestra --> Normal
-
-- Varible Producto ID 
+- Varible Producto ID <br>
   Normal
 
-- Varibale Category 
+- Varibale Category <br>
   Normal
 
-- Variable Sub-Category
+- Variable Sub-Category <br>
   Normal
 
-- Variable Producto Name
+- Variable Producto Name <br>
   Normal
 
-- Varibale Sales
+- Varibale Sales <br>
   asd
 
-- Varibale Quanty
+- Varibale Quanty <br>
   asd
 
-- Varibale Discount
+- Varibale Discount <br>
   asd
 
-- Varibale Profit
+- Varibale Profit <br>
   asd
   
 
