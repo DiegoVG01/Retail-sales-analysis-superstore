@@ -32,19 +32,26 @@
 - Varible City <br>
   Se validó la jerarquía geográfica (Country → Region → State → City) comparando contra tabla de referencia para detectar asignaciones inconsistentes
 - Varible Producto ID <br>
-  Se validó que sea único con respecto a cada Order ID
+  Se creó una clave compuesta concatenando las columnas "Order ID" y "Product ID", con el objetivo de identificar posibles repeticiones de un mismo producto dentro de una orden. A partir de esta clave, se filtraron los registros repetidos para su análisis.
+Dentro de estos casos, se evaluó si las filas correspondían a:
+Líneas válidas (mismo producto en una orden pero con diferentes valores de cantidad, ventas o beneficio), o
+Duplicados exactos (todas las columnas iguales). <br>
 
-- Varibale Category <br>
-  Normal
+Criterio de eliminación: <br>
+Se consideró duplicado exacto cualquier registro en el que todos los campos coinciden.
+En dichos casos, se conservó una única fila y se eliminaron las restantes (1 fila #3407).
+
+- Varibale Category --> Texto <br>
+  Se revisó consistencia de los datos. No ses encontró errores
 
 - Variable Sub-Category <br>
   Normal
-
+  
 - Variable Producto Name <br>
   Normal
 
 - Varibale Sales <br>
-  asd
+  asd por procesar 
 
 - Varibale Quanty <br>
   asd
